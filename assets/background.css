@@ -1,0 +1,6 @@
+body{
+  background-color: rgb(80,80,80);
+  margin: 0px;
+  background:url('background.jpg') top no-repeat, url('background3.jpg') bottom no-repeat;
+  background-size: 100% 50%, 100% 60%;
+}

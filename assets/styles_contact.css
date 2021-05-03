@@ -1,0 +1,47 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  margin: 0;
+}
+.main{
+  margin: 100px 0px;
+  display: flex;
+  background-color: white;
+  padding: 20px;
+}
+.main span{
+  display: block;
+  font-size: 20px;
+  color: black;
+}
+.contactinfo{
+  border-right: 1px solid black;
+}
+form{
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.contact{
+  width:90%
+}
+.contact input{
+  font-size: 15px;
+  height: 20px;
+  margin: 30px;
+  width: 300px;
+  border: 0px;
+  border-bottom: 3px solid black;
+  padding: 5px;
+}
+.contact input[type='submit']{
+  width: 310px
+}
+.contact input[type='submit']:hover{
+  border: 2px solid black;
+  cursor: pointer;
+}
+input:focus{
+  outline: none;
+}

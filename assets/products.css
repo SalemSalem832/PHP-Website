@@ -1,0 +1,88 @@
+.main{
+  display: flex;
+  background-color: white;
+  margin: auto;
+  margin-top: 200px;
+  padding: 20px;
+}
+img{
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+.column{
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  height:100%;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  border-right: 1px solid black;
+  color: black;
+  font-weight: bold;
+}
+.main span{
+  display: block;
+  padding-top: 10px;
+  padding-bottom:20px;
+  border-bottom: 1px solid black;
+  font-size: 12px;
+  color:black;
+}
+#last{
+  border-right: none;
+}
+.head{
+  padding-top: 15px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+  font-size: 18px;
+  color: black;
+}
+.main button{
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 15px 30px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.main button:hover{
+  background-color: black;
+}
+#diff{
+  background-color:white;
+  color:black;
+}
+#diff:hover{
+  background-color: grey;
+  color: white;
+}
+.schedule{
+  display: block;
+  background-color: white;
+  width: 97.7%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.schedule a{
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  font-size: 35px;
+  color:white;
+  background-color: black;
+  text-decoration: none;
+  text-align: center;
+  transition: 400ms;
+  border: 1px solid black;
+}
+.schedule a:hover{
+  color:black;
+  background-color: white;
+}

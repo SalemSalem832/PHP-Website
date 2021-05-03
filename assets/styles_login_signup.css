@@ -1,0 +1,55 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  margin: 0;
+  background-color: white;
+  display: block;
+}
+.form{
+  text-align: center;
+  border: 1px solid black;
+  margin: 250px auto;
+  width: 30%;
+}
+input{
+  display: block;
+  width: 80%;
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  margin: 20px auto;
+  font-size: 20px;
+}
+input:focus{
+  outline: none;
+}
+input[type="submit"]{
+  border: 1px solid black;
+  background-color: white;
+  transition: 400ms;
+}
+input[type="submit"]:hover{
+  border: 1px solid black;
+  background-color: black;
+  color:white;
+  cursor: pointer;
+}
+input[type="checkbox"]{
+display: inline;
+position: relative;
+bottom: 18px;
+right: 50px;
+margin: 0;
+}
+label{
+  display: inline;
+  margin: 0;
+}
+.remember{
+  padding: 0;
+  display: inline-block;
+  margin: 0px auto;
+  width: 80%;
+  text-align: left;
+}

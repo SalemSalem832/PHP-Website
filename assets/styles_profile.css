@@ -1,0 +1,77 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+body{
+  margin: 0;
+  background-color: rgb(80,80,80);
+  background:url('background6.jpg') top no-repeat;
+  background-size: 100% 100%;
+}
+.profile{
+  display: block;
+  background-color: white;
+  width:50%;
+  text-align: center;
+  margin: 50px auto;
+  padding: 10px;
+}
+input{
+  font-size: 15px;
+  height: 20px;
+  margin: 30px;
+  width: 300px;
+  border: 0px;
+  border-bottom: 3px solid black;
+  padding: 5px;
+  background-color: rgba(210, 210, 210, 0.85);
+}
+input:focus{
+  outline: none;
+}
+.selection{
+  display:block;
+  margin: 10px auto;
+}
+input[type="submit"]{
+  display: block;
+  margin: 20px auto;
+  height:30px;
+  transition: 400ms;
+  border: 1px solid black;
+  background-color: white;
+}
+input[type="submit"]:hover{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+input[type="date"]{
+  background-color: white;
+}
+input[type="time"]{
+  background-color: white;
+}
+.datetime{
+  display: block;
+  margin: 20px auto;
+}
+#cancel{
+  border-color: red;
+  background-color: red;
+  color: white;
+}
+#cancel:hover{
+  font-size: 30px;
+  height: 60px;
+}
+h1{
+  text-align: center;
+  color:red;
+  background-color: white;
+  border: 1px solid black;
+}

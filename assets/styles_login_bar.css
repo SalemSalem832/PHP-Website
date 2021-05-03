@@ -1,0 +1,22 @@
+.loginA a{
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+.loginbar{
+  margin-top: 10px;
+  background-color: black;
+  width: 100%;
+  display: inline-block;
+  text-align: right;
+}
+.loginbar button{
+  width: 5%;
+  background-color: black;
+  border: none;
+  margin-right:5px;
+  padding: 0;
+}
+.loginA:hover{
+  text-decoration: none;
+}

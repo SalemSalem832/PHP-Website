@@ -1,0 +1,58 @@
+*{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+  margin: 0;
+  background-color: rgb(80,80,80);
+  background:url('background6.jpg') top no-repeat;
+  background-size: 100% 100%;
+}
+.schedule{
+  display: block;
+  background-color: white;
+  width:50%;
+  text-align: center;
+  margin: 150px 30px;
+  overflow: auto;
+  margin-bottom: 380px;
+}
+input{
+  font-size: 15px;
+  height: 20px;
+  margin: 30px;
+  width: 300px;
+  border: 0px;
+  border-bottom: 3px solid black;
+  padding: 5px;
+}
+input:focus{
+  outline: none;
+}
+input[type="radio"]{
+  font-size: 10px;
+  margin: 0;
+  width:50px;
+}
+input[type="radio"]:hover{
+  cursor: pointer;
+}
+fieldset{
+  border: none;
+  border-bottom: 1px solid black;
+}
+.selection{
+  display:block;
+  margin: 10px auto;
+}
+input[type="submit"]{
+  display: block;
+  margin: 20px auto;
+}
+input[type="submit"]:hover{
+  border: 1px solid black;
+  cursor: pointer;
+}
+.datetime{
+  display: block;
+  margin: 20px auto;
+}
